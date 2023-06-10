@@ -1,0 +1,105 @@
+@font-face {
+  font-family: inter;
+  src: url(font/inter/Inter-Regular.ttf);
+}
+* {
+  font-family: inter;
+}
+
+#navhome {
+  background-color: #001f3f;
+}
+
+#navTeks {
+  font-size: 15px;
+}
+#navTombol {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.carousell {
+  padding-top: 50px;
+  width: 30cm;
+  margin: auto;
+}
+.desc {
+  margin: 60px auto;
+  text-align: center;
+}
+.desc p {
+  font-size: 48px;
+  font-weight: bold;
+}
+.definisi {
+  width: 620px;
+  font-size: 24px;
+  text-align: justify;
+  margin-left: 120px;
+}
+.service{
+    margin-top: 50px;
+    text-align: center;
+}
+.service p{
+    font-size: 48px;
+    font-weight: bold;
+}
+#pisah{
+    gap: 200px;
+}
+.joki{
+    width: 231px;
+    height: 231px;
+    background-color: #001f3f;
+    border-radius: 20px;
+    margin: 50px;
+}
+.diamond{
+    width: 231px;
+    height: 231px;
+    background-color: #001f3f;
+    border-radius: 20px;
+    margin: 50px;
+}
+.contact{
+    margin-top: 50px;
+    text-align: center;
+}
+.contact p{
+    font-size: 48px;
+    font-weight: bold;
+}
+.footer{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+#container1{
+    padding: 20px;
+    margin-top: 40px;
+    background-color:#001f3f;
+    border-radius: 30px;
+}
+.keterangan{
+    font-weight: lighter;
+    margin: auto;
+    width: 800px;
+    color: #B2BCC5;
+    font-size: 12px;
+    font-style: italic;
+}
+#container2{
+    padding: 20px;
+    margin-top: 55px;
+    background-color: #001f3f;
+    border-radius: 30px;
+}
+.item{
+    width: 220px;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
