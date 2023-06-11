@@ -103,3 +103,34 @@
     border-radius: 10px;
     font-size: 20px;
 }
+#container3{
+  padding: 20px;
+  margin-top: 40px;
+  background-color:#001f3f;
+  border-radius: 30px;
+}
+#metode{
+  padding: 20px;
+  background-color: #ffde10;
+  border-radius: 15px;
+}
+#payment:active{
+  border-color: salmon;
+}
+#container4{
+  padding: 20px;
+  margin-top: 40px;
+  background-color:#001f3f;
+  border-radius: 30px;
+}
+.buy{
+  font-size: 30px;
+  margin:30px;
+  font-weight: bold;
+  border: none;
+  height: 70px;
+  width: 250px;
+  background-color: #ffde10;
+  border-radius: 20px;
+  color: #001f3f;
+}
