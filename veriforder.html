@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>TopUp</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" id="navhome">
+      <div class="container-fluid" id="navbar">
+        <a class="navbar-brand fw-semibold ms-3" href="#" style="color: #ffde10"
+          >JOKING.ID</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex justify-content-end m-2"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-3 me-3" id="navTeks">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Joki</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Top Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Login</a>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="btn"
+                id="navTombol"
+                style="background-color: #ffde10"
+              >
+                Sign Up
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Player ID -->
+    <div class="container p-5" id="container1">
+      <p style="color: #ffde10; font-size: 25px; font-weight: bold">
+        1. Masukkan Player ID
+      </p>
+      <div class="container d-flex gap-5 justify-content-center">
+        <form action="" style="display: flex; gap: 20px">
+          <div class="mb-3" style="width: 400px">
+            <label
+              for="exampleFormControlInput1"
+              class="form-label"
+              style="color: white"
+              >ID User</label
+            >
+            <input
+              type="number"
+              class="form-control"
+              id="exampleFormControlInput1"
+            />
+          </div>
+          <div>
+            <div class="mb-3" style="width: 200px">
+              <label
+                for="exampleFormControlInput1"
+                class="form-label"
+                style="color: white"
+                >ID Server</label
+              >
+              <input
+                type="number"
+                class="form-control"
+                id="exampleFormControlInput1"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="keterangan">
+        Untuk mengetahui User ID Anda, silakan klik menu profile dibagian kiri
+        atas pada menu utama game. User ID akan terlihat dibagian bawah Nama
+        Karakter Game Anda. Silakan masukkan User ID Anda untuk menyelesaikan
+        transaksi. Contoh : 12345678(1234).
+      </div>
+    </div>
+
+    <div class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nominal Top Up -->
+    <div class="container p-5" id="container2">
+      <p style="color: #ffde10; font-size: 25px; font-weight: bold">
+        2. Pilih Nominal Top Up
+      </p>
+      <div class="container text-center mt-5" id="item">
+        <form action="post">
+          <div class="row g-2">
+            <div class="col-3">
+              <div class="item p-3">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="5dm"
+                  />
+                  <label class="form-check-label" for="5dm">
+                    <img src="img/diamond.png" width="130px" alt="" />
+                    <p>5 diamonds</p>
+                    <p><strong>Rp.5000</strong></p>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="item p-3">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="10dm"
+                  />
+                  <label class="form-check-label" for="10dm">
+                    <img src="img/diamond.png" width="130px" alt="" />
+                    <p>5 diamonds</p>
+                    <p><strong>Rp.5000</strong></p>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="item p-3">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="15dm"
+                  />
+                  <label class="form-check-label" for="15dm">
+                    <img src="img/diamond.png" width="130px" alt="" />
+                    <p>5 diamonds</p>
+                    <p><strong>Rp.5000</strong></p>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="item p-3">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="20dm"
+                  />
+                  <label class="form-check-label" for="20dm">
+                    <img src="img/diamond.png" width="130px" alt="" />
+                    <p>5 diamonds</p>
+                    <p><strong>Rp.5000</strong></p>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="item p-3">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="25dm"
+                  />
+                  <label class="form-check-label" for="25dm">
+                    <img src="img/diamond.png" width="130px" alt="" />
+                    <p>5 diamonds</p>
+                    <p><strong>Rp.5000</strong></p>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Pilih Pembayaran -->
+    <div class="container p-5" id="container3">
+      <p style="color: #ffde10; font-size: 25px; font-weight: bold">
+        3. Pilih Pembayaran
+      </p>
+      <form action="">
+        <div class="container d-flex px-4 mt-3" id="metode">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="qris"
+              style="margin-top: 20px"
+            />
+            <label class="form-check-label" for="qris" style="display: flex">
+              <div><img src="img/qris.png" alt="qris" width="300px" /></div>
+              <div
+                style="margin-left: 42pc; margin-top: 15px; font-weight: bold"
+              >
+                Rp.1000
+              </div>
+            </label>
+          </div>
+        </div>
+        <div class="container d-flex px-4 mt-3" id="metode">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="gopay"
+              style="margin-top: 20px"
+            />
+            <label class="form-check-label" for="gopay" style="display: flex">
+              <div><img src="img/gopay.png" alt="gopay" width="300px" /></div>
+              <div
+                style="margin-left: 42pc; margin-top: 15px; font-weight: bold"
+              >
+                Rp.1000
+              </div>
+            </label>
+          </div>
+        </div>
+        <div class="container d-flex px-4 mt-3" id="metode">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="ovo"
+              style="margin-top: 20px"
+            />
+            <label class="form-check-label" for="ovo" style="display: flex">
+              <div style="width: 300px">
+                <img src="img/ovo.png" alt="ovo" />
+              </div>
+              <div
+                style="margin-left: 42pc; margin-top: 15px; font-weight: bold"
+              >
+                Rp.1000
+              </div>
+            </label>
+          </div>
+        </div>
+        <div class="container d-flex px-4 mt-3" id="metode">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="flexRadioDefault"
+              id="dana"
+              style="margin-top: 20px"
+            />
+            <label class="form-check-label" for="dana" style="display: flex">
+              <div style="width: 300px">
+                <img src="img/dana.png" alt="dana" />
+              </div>
+              <div
+                style="margin-left: 42pc; margin-top: 15px; font-weight: bold"
+              >
+                Rp.1000
+              </div>
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Email -->
+    <div class="container px-5" id="container4">
+      <p style="color: #ffde10; font-size: 25px; font-weight: bold">
+        4. E-mail
+      </p>
+      <div class="container" style="color: white">
+        Optional: Jika anda ingin mendapatkan bukti pembayaran atas pembelian
+        anda, harap mengisi alamat emailnya.
+      </div>
+      <form action="" style="margin-top: 20px">
+        <div class="mb-3 text-white">
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Masukkan alamat email"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <center>
+      <button
+        class="btn"
+        id="buy"
+        data-bs-toggle="modal"
+        type="button"
+        data-bs-target="#exampleModal"
+      >
+        <strong>Beli</strong>
+      </button>
+    </center>
+    
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" style="background-color: #ffde10;">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"><strong>Detail Pesanan</strong></h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Product: <b>Diamond</b></p>
+            <p>Item: <b>5 Diamond</b></p>
+            <p>Account ID: <b>25665941</b></p>
+            <p>Server ID: <b>2033</b></p>
+            <p>Payment: <b>Dana</b></p>
+            <center><p><i>Cek kembali data akun dan pesanan anda. Apabila salah memasukkan data, bukan tanggung jawab kami</i></p></center>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <center><hr style="width: 75%; border-top: 2px solid black" /></center>
+    <div class="footer">©2023 JOKING.ID All Right Reserved</div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
