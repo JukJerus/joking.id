@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>TopUp</title>
+    <title>Joki</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -68,30 +68,34 @@
     <!-- Player ID -->
     <div class="container p-5" id="container1">
       <p style="color: #ffde10; font-size: 25px; font-weight: bold">
-        1. Masukkan Player ID
+        1. Lengkapi data
       </p>
       <div class="container d-flex gap-5 justify-content-center">
         <form action="" style="display: flex; gap: 20px">
           <div class="mb-3" style="width: 400px">
-            <label
-              for="exampleFormControlInput1"
-              class="form-label"
-              style="color: white"
+            <label for="email" class="form-label" style="color: white"
               >ID User</label
             >
-            <input
-              type="number"
-              class="form-control"
-              id="exampleFormControlInput1"
-            />
+            <input type="email" class="form-control" id="email" />
+            <label class="form-label" style="color: white">Login Via</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Open this select menu</option>
+              <option value="1">Moonton (Recommended)</option>
+              <option value="2">VK</option>
+              <option value="3">Tiktok</option>
+            </select>
           </div>
-          <div>
-            <div class="mb-3" style="width: 200px">
+          <div class="mb-3" style="width: 300px">
+            <label for="passuser" class="form-label" style="color: white"
+              >Password</label
+            >
+            <input type="password" class="form-control" id="passuser" />
+            <div class="mb-3" style="width: 300px">
               <label
                 for="exampleFormControlInput1"
                 class="form-label"
                 style="color: white"
-                >ID Server</label
+                >Nickname</label
               >
               <input
                 type="number"
@@ -103,46 +107,25 @@
         </form>
       </div>
       <div class="keterangan">
-        Untuk mengetahui User ID Anda, silakan klik menu profile dibagian kiri
-        atas pada menu utama game. User ID akan terlihat dibagian bawah Nama
-        Karakter Game Anda. Silakan masukkan User ID Anda untuk menyelesaikan
-        transaksi. Contoh : 12345678(1234).
-      </div>
-    </div>
-
-    <div class="modal" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <p>Modal body text goes here.</p>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
+        Harap perhatikan sebelum menjoki
+        <ul>
+          <li>Matikan Verifikasi Akun untuk mempermudah penjoki login</li>
+          <li>
+            Jika login tanpa izin, proses joki akan dibatalkan dan uang akan
+            hangus
+          </li>
+          <li>Dimohon menunggu sesuai estimasi dan jangan spam admin</li>
+          <li>
+            Jika ada problem saat login akun, admin akan segera menghubungi
+          </li>
+        </ul>
       </div>
     </div>
 
     <!-- Nominal Top Up -->
     <div class="container p-5" id="container2">
       <p style="color: #ffde10; font-size: 25px; font-weight: bold">
-        2. Pilih Nominal Top Up
+        2. Pilih Nominal
       </p>
       <div class="container text-center mt-5" id="item">
         <form action="post">
@@ -154,11 +137,12 @@
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="5dm"
+                    id="master3"
                   />
-                  <label class="form-check-label" for="5dm">
-                    <img src="img/diamond.png" width="130px" alt="" />
-                    <p>5 diamonds</p>
+                  <label class="form-check-label" for="master3">
+                    <img src="img/master.png" width="130px" alt="#" />
+                    <p>Master</p>
+                    <p>3 Bintang</p>
                     <p><strong>Rp.5000</strong></p>
                   </label>
                 </div>
@@ -171,12 +155,13 @@
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="10dm"
+                    id="master5"
                   />
-                  <label class="form-check-label" for="10dm">
-                    <img src="img/diamond.png" width="130px" alt="" />
-                    <p>5 diamonds</p>
-                    <p><strong>Rp.5000</strong></p>
+                  <label class="form-check-label" for="master5">
+                    <img src="img/master.png" width="130px" alt="#" />
+                    <p>Master</p>
+                    <p>5 Bintang</p>
+                    <p><strong>Rp.10000</strong></p>
                   </label>
                 </div>
               </div>
@@ -188,12 +173,13 @@
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="15dm"
+                    id="master7"
                   />
-                  <label class="form-check-label" for="15dm">
-                    <img src="img/diamond.png" width="130px" alt="" />
-                    <p>5 diamonds</p>
-                    <p><strong>Rp.5000</strong></p>
+                  <label class="form-check-label" for="master7">
+                    <img src="img/master.png" width="130px" alt="#" />
+                    <p>Master</p>
+                    <p>7 Bintang</p>
+                    <p><strong>Rp12000</strong></p>
                   </label>
                 </div>
               </div>
@@ -205,12 +191,13 @@
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="20dm"
+                    id="master10"
                   />
-                  <label class="form-check-label" for="20dm">
-                    <img src="img/diamond.png" width="130px" alt="" />
-                    <p>5 diamonds</p>
-                    <p><strong>Rp.5000</strong></p>
+                  <label class="form-check-label" for="master10">
+                    <img src="img/master.png" width="130px" alt="#" />
+                    <p>Master</p>
+                    <p>10 Bintang</p>
+                    <p><strong>Rp15000</strong></p>
                   </label>
                 </div>
               </div>
@@ -222,16 +209,71 @@
                     class="form-check-input"
                     type="radio"
                     name="flexRadioDefault"
-                    id="25dm"
+                    id="gmaster3"
                   />
-                  <label class="form-check-label" for="25dm">
-                    <img src="img/diamond.png" width="130px" alt="" />
-                    <p>5 diamonds</p>
-                    <p><strong>Rp.5000</strong></p>
+                  <label class="form-check-label" for="gmaster3">
+                    <img src="img/grandmaster.png" width="130px" alt="#" />
+                    <p>Grandmaster</p>
+                    <p>3 Bintang</p>
+                    <p><strong>Rp3000</strong></p>
                   </label>
                 </div>
               </div>
             </div>
+            <div class="col-3">
+              <div class="item p-3">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="gmaster5"
+                  />
+                  <label class="form-check-label" for="gmaster5">
+                    <img src="img/grandmaster.png" width="130px" alt="#" />
+                    <p>Grandmaster</p>
+                    <p>5 Bintang</p>
+                    <p><strong>Rp.10000</strong></p>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="item p-3">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="gmaster7"
+                  />
+                  <label class="form-check-label" for="gmaster7">
+                    <img src="img/grandmaster.png" width="130px" alt="#" />
+                    <p>Master</p>
+                    <p>7 Bintang</p>
+                    <p><strong>Rp12000</strong></p>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+                <div class="item p-3">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="gmaster10"
+                    />
+                    <label class="form-check-label" for="gmaster10">
+                      <img src="img/grandmaster.png" width="130px" alt="#" />
+                      <p>Grandmaster</p>
+                      <p>10 Bintang</p>
+                      <p><strong>Rp15000</strong></p>
+                    </label>
+                  </div>
+                </div>
+              </div>
           </div>
         </form>
       </div>
@@ -326,15 +368,10 @@
       </form>
     </div>
 
-    <!-- Email -->
     <div class="container px-5" id="container4">
       <p style="color: #ffde10; font-size: 25px; font-weight: bold">
-        4. E-mail
+        4. Nomor Whatsapp
       </p>
-      <div class="container" style="color: white">
-        Optional: Jika anda ingin mendapatkan bukti pembayaran atas pembelian
-        anda, harap mengisi alamat emailnya.
-      </div>
       <form action="" style="margin-top: 20px">
         <div class="mb-3 text-white">
           <input
@@ -342,7 +379,7 @@
             class="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
-            placeholder="Masukkan alamat email"
+            placeholder="Masukkan nomor telepon"
           />
           <div id="emailHelp" class="form-text">
             We'll never share your email with anyone else.
@@ -362,7 +399,7 @@
         <strong>Beli</strong>
       </button>
     </center>
-    
+
     <!-- Modal -->
     <div
       class="modal fade"
@@ -371,10 +408,12 @@
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog" style="background-color: #ffde10;">
+      <div class="modal-dialog" style="background-color: #ffde10">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel"><strong>Detail Pesanan</strong></h1>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              <strong>Detail Pesanan</strong>
+            </h1>
             <button
               type="button"
               class="btn-close"
@@ -388,7 +427,14 @@
             <p>Account ID: <b>25665941</b></p>
             <p>Server ID: <b>2033</b></p>
             <p>Payment: <b>Dana</b></p>
-            <center><p><i>Cek kembali data akun dan pesanan anda. Apabila salah memasukkan data, bukan tanggung jawab kami</i></p></center>
+            <center>
+              <p>
+                <i
+                  >Cek kembali data akun dan pesanan anda. Apabila salah
+                  memasukkan data, bukan tanggung jawab kami</i
+                >
+              </p>
+            </center>
           </div>
           <div class="modal-footer">
             <button
